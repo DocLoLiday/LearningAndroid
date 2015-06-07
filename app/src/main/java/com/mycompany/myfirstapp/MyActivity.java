@@ -35,4 +35,8 @@ public class MyActivity extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    public void sendMessage(View view){
+        Intent intent = new Intent(this, DisplayMessageActivity.class);
+    }
 }
